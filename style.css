@@ -1,3 +1,7 @@
+.theme-color {
+  color: #03daaf;
+}
+
 .carousel-item,
 .carousel-item img {
   height: 500px;
@@ -7,4 +11,15 @@
   object-fit: cover;
 }
 
-.theme-color
+header {
+  background-color: #3d4341;
+  color:#dadada;
+}
+
+header h1 {
+  font-style: italic;
+}
+
+main {
+  background-color: #889591;
+}
