@@ -18,13 +18,23 @@
 
   <header>
     <div class="container">
-      <h1><span>Bike</span> Store</h1>
-
-      <form action="#">
-        <input type="text" name="search" id="input-search" placeholder="o que você procura hoje?">
-        <!--TODO: ícone de busca-->
-      </form>
-      <!--TODO: ícones de perfil, favoritos e carrinho-->
+      <div class="row">
+        <div class="col-lg-3 d-flex align-items-center">
+          <h1><span class="header-highlight">Bike</span> Store</h1>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="input-group my-2">
+            <input type="text" class="form-control" placeholder="O que você procura?" aria-label="busca"
+              aria-describedby="search-input">
+            <span class="input-group-text" id="search-input"><i class="bi bi-search main-highlight"></i></span>
+          </div>
+        </div>
+        <div class="col-lg-3 d-flex justify-content-end align-items-center">
+          <i class="bi bi-person ms-2 header-highlight"></i>
+          <i class="bi bi-heart ms-2 header-highlight"></i>
+          <i class="bi bi-cart ms-2 header-highlight"></i>
+        </div>
+      </div>
 
       <nav>
         <ul>
@@ -62,18 +72,18 @@
         <div class="col-lg-4 col-md-6">
           <div class="newsletter">
             <h3>Newsletter</h3>
-            <div class="input-group mb-3">
+            <div class="input-group">
               <input type="email" class="form-control" placeholder="exemplo@email.com" aria-label="e-mail"
                 aria-describedby="newsletter-form">
               <button class="btn btn-primary" type="button" id="newsletter-form">Assinar</button>
             </div>
           </div>
 
-            <div class="social-icons">
-              <i class="bi bi-facebook mx-2"></i>
-              <i class="bi bi-instagram mx-2"></i>
-              <i class="bi bi-twitter mx-2"></i>
-            </div>
+          <div class="social-icons">
+            <i class="bi bi-facebook mx-2"></i>
+            <i class="bi bi-instagram mx-2"></i>
+            <i class="bi bi-twitter mx-2"></i>
+          </div>
         </div>
       </div>
     </div>

@@ -8,8 +8,29 @@
   --main-bg-color: #bacdc7;
 }
 
-header span {
+.header-highlight {
   color: var(--header-highlight-color);
+}
+
+ .main-highlight {
+  color: var(--main-highlight-color);
+ }
+
+ i {
+  font-size: 1.5rem;
+}
+
+header {
+  color: var(--header-text-color);
+  background-color: var(--header-bg-color);
+}
+
+header h1 {
+  font-style: italic;
+}
+
+.profile-icons {
+  justify-content: end;
 }
 
 .carousel-item,
@@ -21,24 +42,12 @@ header span {
   object-fit: cover;
 }
 
-header {
-  background-color: var(--header-bg-color);
-  color: var(--header-text-color);
-}
-
-header h1 {
-  font-style: italic;
-}
 
 main {
+  color: var(--main-text-color);
   background-color: var(--main-bg-color);
 }
 
-main h3 {
-  color: var(--main-highlight-color);
-}
-
-i {
+.social-icons i {
   font-size: 2rem;
-  color: var(--main-highlight-color);
 }
