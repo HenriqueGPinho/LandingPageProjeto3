@@ -1,5 +1,15 @@
-.theme-color {
-  color: #03daaf;
+:root {
+  --header-highlight-color: #03daaf;
+  --header-text-color: #dadada;
+  --header-bg-color: #3b4743;
+
+  --main-highlight-color: #008c70;
+  --main-text-color: #373737;
+  --main-bg-color: #bacdc7;
+}
+
+header span {
+  color: var(--header-highlight-color);
 }
 
 .carousel-item,
@@ -12,8 +22,8 @@
 }
 
 header {
-  background-color: #3b4743;
-  color:#dadada;
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
 }
 
 header h1 {
@@ -21,10 +31,14 @@ header h1 {
 }
 
 main {
-  background-color: #bacdc7;
+  background-color: var(--main-bg-color);
+}
+
+main h3 {
+  color: var(--main-highlight-color);
 }
 
 i {
   font-size: 2rem;
-  color: #008c70;
+  color: var(--main-highlight-color);
 }
