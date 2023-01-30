@@ -21,5 +21,10 @@ header h1 {
 }
 
 main {
-  background-color: #889591;
+  background-color: #bacdc7;
+}
+
+i {
+  font-size: 2rem;
+  color: #008c70;
 }
