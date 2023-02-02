@@ -12,11 +12,11 @@
   color: var(--header-highlight-color);
 }
 
- .main-highlight {
+.main-highlight {
   color: var(--main-highlight-color);
- }
+}
 
- i {
+i {
   font-size: 1.5rem;
 }
 
@@ -29,8 +29,13 @@ header h1 {
   font-style: italic;
 }
 
-.profile-icons {
-  justify-content: end;
+.nav-link:hover,
+.nav-link:visited {
+  color: var(--main-highlight-color);
+}
+
+.bulletpoint-icon {
+  font-size: .5rem;
 }
 
 .carousel-item,
