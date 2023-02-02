@@ -29,13 +29,17 @@ header h1 {
   font-style: italic;
 }
 
-.nav-link:hover,
+.nav-link,
 .nav-link:visited {
+  color: var(--header-highlight-color);
+}
+
+.nav-link:hover {
   color: var(--main-highlight-color);
 }
 
-.bulletpoint-icon {
-  font-size: .5rem;
+.dropdown-menu-dark {
+  background-color: var(--header-bg-color);
 }
 
 .carousel-item,
