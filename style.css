@@ -16,10 +16,6 @@
   color: var(--main-highlight-color);
 }
 
-i {
-  font-size: 1.5rem;
-}
-
 header {
   color: var(--header-text-color);
   background-color: var(--header-bg-color);
