@@ -18,88 +18,93 @@
 
   <header>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-4 d-flex align-items-center">
+      <div class="row justify-content-between">
+        <div class="col d-flex align-items-center">
           <h1><span class="header-highlight">Bike</span> Store</h1>
         </div>
-        <div class="col-lg-6 col-md-6 d-flex align-items-center">
-          <div class="input-group my-2">
-            <input type="text" class="form-control" placeholder="O que você procura?" aria-label="busca"
-              aria-describedby="search-input">
-            <span class="input-group-text" id="search-input"><i class="bi bi-search main-highlight"></i></span>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-2 d-flex justify-content-end align-items-center">
+        <div class="col d-flex align-items-center justify-content-end">
           <i class="bi bi-person px-2 header-highlight"></i>
           <i class="bi bi-heart px-2 header-highlight"></i>
           <i class="bi bi-cart px-2 header-highlight"></i>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-expand-md">
-        <div class="container-fluid px-0">
-          <button class="navbar-toggler navbar-dark header-highlight" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon navbar-dark"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Por marcas
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item header-highlight" href="#">Marca A</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Marca B</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Marca C</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
+      <div class="row justify-content-between">
+        <div class="col d-flex align-items-center">
+          <nav class="navbar navbar-expand-lg navbar-expand-md">
+            <div class="container-fluid px-0">
+              <button class="navbar-toggler navbar-dark header-highlight" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-dark"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <div class="input-group my-2">
+                      <input type="text" class="form-control" placeholder="O que você procura?" aria-label="busca"
+                        aria-describedby="search-input">
+                      <span class="input-group-text" id="search-input"><i
+                          class="bi bi-search main-highlight"></i></span>
+                    </div>
                   </li>
-                  <li><a class="dropdown-item header-highlight" href="#">Todas as marcas</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Por estilo
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item header-highlight" href="#">Estilo A</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Estilo B</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Estilo C</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Estilo D</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Por marcas
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item header-highlight" href="#">Marca A</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Marca B</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Marca C</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item header-highlight" href="#">Todas as marcas</a></li>
+                    </ul>
                   </li>
-                  <li><a class="dropdown-item header-highlight" href="#">Todos os estilos</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Acessórios
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item header-highlight" href="#">Capacetes</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Joelheiras</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Cotoveleiras</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Kits</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Garrafas</a></li>
-                  <li><a class="dropdown-item header-highlight" href="#">Luzes</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Por estilo
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item header-highlight" href="#">Estilo A</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Estilo B</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Estilo C</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Estilo D</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item header-highlight" href="#">Todos os estilos</a></li>
+                    </ul>
                   </li>
-                  <li><a class="dropdown-item header-highlight" href="#">Todos os acessórios</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Acessórios
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item header-highlight" href="#">Capacetes</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Joelheiras</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Cotoveleiras</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Kits</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Garrafas</a></li>
+                      <li><a class="dropdown-item header-highlight" href="#">Luzes</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item header-highlight" href="#">Todos os acessórios</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Kids</a>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Kids</a>
-              </li>
-            </ul>
-          </div>
+              </div>
+            </div>
+          </nav>
         </div>
-      </nav>
+      </div>
     </div>
 
     <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="false" data-bs-pause="false"
