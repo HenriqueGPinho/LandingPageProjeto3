@@ -4,8 +4,10 @@
   --header-bg-color: #3b4743;
 
   --main-highlight-color: #008c70;
+  --main-highlight-darker: #016e58;
   --main-text-color: #373737;
   --main-bg-color: #bacdc7;
+  --main-bg-color2: #729f91;
 }
 
 .header-highlight {
@@ -51,6 +53,16 @@ header h1 {
 main {
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
+}
+
+.btn-primary {
+  background-color: var(--main-highlight-color);
+  border: 1px solid var(--main-highlight-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--main-highlight-darker);
+  border: 1px solid var(--main-highlight-darker);
 }
 
 .social-icons i {
