@@ -68,3 +68,8 @@ main {
 .social-icons i {
   font-size: 2rem;
 }
+
+footer {
+  background-color: var(--header-bg-color);
+  color: var(--header-text-color);
+}
