@@ -47,6 +47,7 @@ header h1 {
 
 .carousel-item img {
   object-fit: cover;
+  object-position: 50% 0%;
 }
 
 
@@ -67,6 +68,16 @@ main {
 
 .social-icons i {
   font-size: 2rem;
+}
+
+.card {
+  max-width: 200px;
+  margin: auto;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
 }
 
 footer {
